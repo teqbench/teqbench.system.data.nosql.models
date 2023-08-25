@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ReleaseVersion>5.0.0</ReleaseVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>5.0.0</PackageVersion>
+    <Description>Base interface for a repository document model.
+
+Keep as a separate package/lib as to NOT also have to include/reference TradingToolbox.System.Data.NoSql when implementing models based on this interface.</Description>
+    <PackageOutputPath>../NuGet-Packages</PackageOutputPath>
+    <RootNamespace>TradingToolbox.System.Data.NoSql.Models</RootNamespace>
+    <AssemblyName>TradingToolbox.System.Data.NoSql.Models</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+</Project>
