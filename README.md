@@ -37,6 +37,21 @@ dotnet add package TradingToolbox.System.Data.NoSql.Models
 /// </summary>
 public interface IDocument : IDocument<string>
 {
+    // Note, using the generic IDocument interface from TradingToolbox.System.Data.NoSql.Models allows
+    // the implementing interface/class to specific a different data type for the Id property.
+}
+
+/// <summary>
+/// Base (abstract) document implementation for MongoDB repository implementation.
+/// </summary>
+public abstract class Document : IDocument
+{
+    /// <summary>
+    /// Unique document identifier; to be assigned by database when document is created.
+    /// </summary>
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; }
 }
 ```
 
