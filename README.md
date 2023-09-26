@@ -1,4 +1,4 @@
-# Trading Toolbox - System Data NoSql Models
+# System Data NoSql Models
 
 ## Overview
 Base interface for a repository document model.
@@ -22,7 +22,7 @@ Base interface for a repository document model.
 > [!NOTE]
 > Referenced/restored via the project file
 
-N/A
+- None
 
 # Usage
 ## Add NuGet Package To Project
@@ -32,7 +32,7 @@ dotnet add package TradingToolbox.System.Data.NoSql.Models
 
 ## Update Source Code
 > [!NOTE]
-> For complete usage, see TradingToolbox.System.Data.NoSql.MongoDB.Models
+> For complete usage, see [TradingToolbox.System.Data.NoSql.MongoDB.Models](https://github.com/trading-toolbox/tradingtoolbox.system.data.nosql.mongodb.models)
 
 ```csharp
 /// <summary>
