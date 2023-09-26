@@ -31,6 +31,9 @@ dotnet add package TradingToolbox.System.Data.NoSql.Models
 ```
 
 ## Update Source Code
+> [!NOTE]
+> For complete usage, see TradingToolbox.System.Data.NoSql.MongoDB.Models
+
 ```csharp
 /// <summary>
 /// Base document interface for MongoDB repository implementation.
