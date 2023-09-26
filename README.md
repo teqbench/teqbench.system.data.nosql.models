@@ -32,7 +32,12 @@ dotnet add package TradingToolbox.System.Data.NoSql.Models
 
 ## Update Source Code
 ```csharp
-To add
+/// <summary>
+/// Base document interface for MongoDB repository implementation.
+/// </summary>
+public interface IDocument : IDocument<string>
+{
+}
 ```
 
 # DevOps
