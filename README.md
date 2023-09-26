@@ -1,4 +1,4 @@
-# Trading Toolbox - System Data NoSql MongoDB Models
+# Trading Toolbox - System Data NoSql Models
 
 ## Overview
 Base interface for a repository document model.
@@ -22,8 +22,7 @@ Base interface for a repository document model.
 > [!NOTE]
 > Referenced/restored via the project file
 
-- MongoDB.Bson, 2.21.0
-- TradingToolbox.System.Data.NoSql.Models, 5.1.0
+N/A
 
 # Usage
 ## Add NuGet Package To Project
