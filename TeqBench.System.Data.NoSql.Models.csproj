@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Authors>Trading Toolbox</Authors>
-		<Company>Trading Toolbox</Company>
-		<Product>Trading Toolbox</Product>
-		<Copyright>Copyright 2023 © Trading Toolbox. All rights reserved.</Copyright>
+		<Authors>TeqBench</Authors>
+		<Company>TeqBench</Company>
+		<Product>TeqBench</Product>
+		<Copyright>Copyright 2023 © TeqBench. All rights reserved.</Copyright>
+		<ReleaseVersion></ReleaseVersion>
     </PropertyGroup>
 	<PropertyGroup>
 		<Major Condition="'$(major)' == ''">0</Major>
@@ -46,11 +47,14 @@
 	</PropertyGroup>
 
   <PropertyGroup>
-    <Description>Base interface for a repository document model. Keep as a separate package/lib as to NOT also have to include/reference TradingToolbox.System.Data.NoSql when implementing models based on this interface.</Description>
-    <RootNamespace>TradingToolbox.System.Data.NoSql.Models</RootNamespace>
-    <AssemblyName>TradingToolbox.System.Data.NoSql.Models</AssemblyName>
+    <Description>Base interface for a repository document model. Keep as a separate package/lib as to NOT also have to include/reference TeqBench.System.Data.NoSql when implementing models based on this interface.</Description>
+    <RootNamespace>TeqBench.System.Data.NoSql.Models</RootNamespace>
+    <AssemblyName>TeqBench.System.Data.NoSql.Models</AssemblyName>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
     <None Remove="README.md" />
   </ItemGroup>
