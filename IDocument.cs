@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TradingToolbox.System.Data.NoSql.Models
+namespace TeqBench.System.Data.NoSql.Models
 {
     /// <summary>
     /// Base interface for a repository document model.
