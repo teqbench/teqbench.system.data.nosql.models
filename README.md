@@ -23,7 +23,7 @@ Base interface for a repository document model.
 > [!NOTE]
 > Referenced/restored via the project file
 
-- Microsoft.NETCore.App, 8.0.0
+- none
 
 # Usage
 ## Add NuGet Package To Project
