@@ -5,12 +5,10 @@ root = true
 [*]
 indent_style = space
 indent_size = 4
-insert_final_newline = false
-trim_trailing_whitespace = false
+insert_final_newline = true
+trim_trailing_whitespace = true
 
 [*.cs]
-csharp_new_line_before_open_brace = none
-
 # Enforces that private instance fields should start with an _; if that convention is not followed, the IDE will treat it as
 # a compiler error. Private static fields are ignored.
 # See https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/naming-rules#rule-id-ide1006-naming-rule-violation
