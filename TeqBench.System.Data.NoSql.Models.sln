@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.809.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeqBench.System.Data.NoSql.Models", "TeqBench.System.Data.NoSql.Models.csproj", "{8CE38317-0CA5-45BF-9D4F-EC1CC192A40C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43E7833C-94E0-4431-9F7B-FE32912C6131}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeqBench.System.Data.NoSql.Models", "src\TeqBench.System.Data.NoSql.Models.csproj", "{90C98124-3CCC-40CD-B392-BF98A3B73146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeqBench.System.Data.NoSql.Models.Tests", "tests\TeqBench.System.Data.NoSql.Models.Tests.csproj", "{5C3FD613-B374-428A-B530-A17B3968B859}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,10 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8CE38317-0CA5-45BF-9D4F-EC1CC192A40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CE38317-0CA5-45BF-9D4F-EC1CC192A40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CE38317-0CA5-45BF-9D4F-EC1CC192A40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CE38317-0CA5-45BF-9D4F-EC1CC192A40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C98124-3CCC-40CD-B392-BF98A3B73146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C98124-3CCC-40CD-B392-BF98A3B73146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C98124-3CCC-40CD-B392-BF98A3B73146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C98124-3CCC-40CD-B392-BF98A3B73146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3FD613-B374-428A-B530-A17B3968B859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3FD613-B374-428A-B530-A17B3968B859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3FD613-B374-428A-B530-A17B3968B859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3FD613-B374-428A-B530-A17B3968B859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
