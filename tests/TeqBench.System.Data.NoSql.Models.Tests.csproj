@@ -4,6 +4,7 @@
 	Import common project file settings via teqbench.dev submodule.
 	-->
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Config.props" />
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Test.Project.Config.props" />
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Test.Coverage.props" />
 	<PropertyGroup>
 		<IsPackable>false</IsPackable>
