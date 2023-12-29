@@ -6,10 +6,6 @@
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Config.props" />
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Test.Project.Config.props" />
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Test.Coverage.props" />
-	<PropertyGroup>
-		<IsPackable>false</IsPackable>
-		<IsTestProject>true</IsTestProject>
-	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
 		<PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
