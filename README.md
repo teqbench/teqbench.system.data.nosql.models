@@ -29,8 +29,7 @@ Base interface for a repository document model.
 > [!NOTE]
 > Referenced/restored via the project file
 
-- TeqBench.Dev.EditorConfig, 3.0.1
-- TeqBench.Dev.GitIgnore, 1.0.1
+- None
 
 ## Usage
 
